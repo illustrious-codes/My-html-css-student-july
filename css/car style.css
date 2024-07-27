@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(148, 101, 43, 0.637);
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    color: blue;
+    float: left;
+    align-items: center;
+    list-style: none;
+}
+nav ul li a{
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+nav ul li:hover{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+
+.heading1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+}
+.marq{
+    background-color: bisque;
+}
+.heading2{
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(31, 14, 14);
+}
+.heading3{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.image-container{
+    background-color: rosybrown;
+    padding:15px 20px 15px 30px;
+}
+.image-container1{
+    margin: auto;
+}
+.contact{
+    width: 100%;
+}
+.contact h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
